@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">History2.0</string>
+    <string name="intro">Fill details regarding your health</string>
+    <string name="intro2">Select from the list of patients</string>
+    <string name="conti">Fill your details</string>
+    <string name="view">View the list of patients</string>
+    <string name="fill">Fill in your details</string>
+    <string name="intro3">Edit details and share with doctor</string>
+    <string name="default_text">--</string>
+</resources>

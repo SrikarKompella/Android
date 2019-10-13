@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.srikar.rightsay.Real">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:id="@+id/auto"
+        android:hint="Common Mispronounced Words"
+        android:textColorHint="@color/hint"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/head"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/or"
+        android:text="OR"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/head"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="@dimen/head"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/realedit"
+        android:layout_marginTop="80dp"
+        android:hint="Enter Word or phrase.."
+        android:textColorHint="@color/hint"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/head"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hear"
+        android:layout_marginTop="80dp"
+        android:text="hear"
+        android:textColor="#FfFfFf"
+        android:background="@color/action"
+        android:textSize="@dimen/button"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+
+
+
+
+</LinearLayout>

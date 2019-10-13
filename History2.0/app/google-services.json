@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "989895710492",
+    "firebase_url": "https://fir-database-4e796.firebaseio.com",
+    "project_id": "fir-database-4e796",
+    "storage_bucket": "fir-database-4e796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989895710492:android:489dba8997bb25aa",
+        "android_client_info": {
+          "package_name": "com.srikar.cloudb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989895710492-nso413nq6i65473u7dmbc8dqpt0t1ote.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJl3QEWY8cjTZVx63PVbzg18HweEWjtGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989895710492:android:5c005d9f66ec5428",
+        "android_client_info": {
+          "package_name": "com.srikar.history20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989895710492-nso413nq6i65473u7dmbc8dqpt0t1ote.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJl3QEWY8cjTZVx63PVbzg18HweEWjtGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

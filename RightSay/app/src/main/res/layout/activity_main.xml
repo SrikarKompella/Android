@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.srikar.rightsay.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:text="@string/intro1"
+        android:textSize="@dimen/head"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/head"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/intro2"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/head"
+        android:textColor="@color/head"
+        android:layout_marginRight="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/intro3"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/head"
+        android:textColor="@color/head"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:id="@+id/start"
+        android:text="Get Started!"
+        android:textColor="#Ffffff"
+        android:textSize="@dimen/button"
+        android:background="@color/action"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+
+</LinearLayout>

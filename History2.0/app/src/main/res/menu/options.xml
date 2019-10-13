@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1" android:title="Update Age" />
+    <item android:id="@+id/item2" android:title="Update Weight"/>
+    <item android:id="@+id/item3" android:title="Update Height" />
+    <item android:id="@+id/item4" android:title="Update Surgeries"/>
+    <item android:id="@+id/item5" android:title="Update Medication"/>
+    <item android:id="@+id/item6" android:title="Change Medical Cond's"/>
+    <item android:id="@+id/share" android:title="Share" />
+    <item android:id="@+id/phone" android:title="Call a Doc"/>
+</menu>

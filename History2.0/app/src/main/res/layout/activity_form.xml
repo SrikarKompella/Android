@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/appbg"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Fill your details"
+            android:id="@+id/head"
+            android:textSize="@dimen/fontsize1"
+            android:textColor="@color/txtlvl"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fna"
+            android:layout_gravity="center_horizontal"
+            android:hint="Full Name"
+            android:textColorHint="@color/txthint"
+            android:inputType="textCapWords"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            >
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:hint="Age"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:textColorHint="@color/txthint"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/ag" />
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:hint="Weight(Kg)"
+                android:inputType="number"
+                android:layout_weight="1"
+                android:textColorHint="@color/txthint"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/wt" />
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:hint="Height(cm)"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:textColorHint="@color/txthint"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ht" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+
+            <EditText
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/txthint"
+                android:hint=" Blood Group"
+                android:layout_marginTop="13dp"
+                android:layout_weight="1"
+                android:inputType="textCapCharacters"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/bgrp" />
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:hint="Gender"
+                android:layout_marginTop="13dp"
+                android:layout_weight="1"
+                android:inputType="textCapWords"
+                android:textColorHint="@color/txthint"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/gen" />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:textColorHint="@color/txthint"
+            android:id="@+id/surgery"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Prior Surgeries.."
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/med"
+            android:textColorHint="@color/txthint"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:hint="Prior Medications.."
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/medcon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:hint="Prior Medical Conditions.."
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/txthint"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Details"
+            android:id="@+id/save"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/action"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsize2"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

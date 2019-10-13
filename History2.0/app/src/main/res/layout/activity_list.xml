@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.srikar.history20.List"
+    android:background="@color/appbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:layout_marginTop="@dimen/fontsize1"
+        android:text="Patient List"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30dp"
+        android:textColor="@color/txtlvl" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listname"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:divider="@color/txthint"
+        android:dividerHeight="15dp"
+        android:background="#ffffff"/>
+</LinearLayout>

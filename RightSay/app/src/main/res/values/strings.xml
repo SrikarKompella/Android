@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RightSay</string>
+    <string name="intro1">The simplest of them all</string>
+    <string name="intro2">Type in the word and hear how it is pronounced</string>
+    <string name="intro3">Seach for the word and hear how it is pronounced</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fontsize1">24dp</dimen>
+    <dimen name="fontsize2">18dp</dimen>
+    <dimen name="fontsize3">16dp</dimen>
+    <dimen name="fontsize4">14dp</dimen>
+</resources>
